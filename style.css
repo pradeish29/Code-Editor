@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* background: #161616; */
+    background: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), linear-gradient(to top left,purple,blue,green,yellow,orange,rgb(255, 60, 0),red)fixed no-repeat;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+.left, .right{
+    padding: 10px;
+    flex-basis:50%;
+}
+textarea{
+   width: 100%;
+   height: 28%; 
+   background: rgb(34, 34, 34);
+   color: #fff;
+   padding: 10px 20px;
+   border: 0;
+   outline: 0;
+   font-size: 18px;
+   margin-bottom: 5px;
+}
+iframe{
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+label{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: #000;
+    font-size: large;
+    font-weight: 500;
+}
+.h{
+    background: #dd0531;
+}
+.c{
+    background: #007fff;
+}
+.j{
+    background: #f9e64f;
+}
+.o{
+    background: #832561;
+}
